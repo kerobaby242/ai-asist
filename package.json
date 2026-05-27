@@ -1,14 +1,15 @@
 {
   "name": "cezaevi-ai-asistan",
-  "version": "1.0.0",
-  "description": "Telefon üzerinden AI asistan - Netgsm + Claude",
+  "version": "2.0.0",
+  "description": "Telefon üzerinden AI asistan - Twilio + Claude",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "twilio": "^4.23.0"
   },
   "engines": {
     "node": ">=18.0.0"
